@@ -1,18 +1,26 @@
+@import "tailwindcss";
+
+
 html,
 body {
-    padding: 30px;
-
-    background: linear-gradient(to right, rgb(23,80,23) 1%,black 10%) repeat;
+    /* padding: 30px; */
+    background: linear-gradient(to left, rgb(23,80,23) 1%,black 10%) repeat;
 
 }
 div{
     margin-bottom:40px;
-    font-family: var(--font-satisfy);
-    font-size:1.25rem;
-    color: white;
-    width:55%;
-    height:55%;
-    text-align: left;
+    padding: 75px;
 
     }
 
+.fred{
+    font-family: var(--font-audiowide);
+    font-size:2rem;
+    color:rgb(200, 99, 209);  
+}
+
+.quant{
+    font-family: var(--font-quantico);
+    font-size:2rem;
+    color: white;
+}
