@@ -1,9 +1,9 @@
 services:
-    website:
+    font:
         ports:
             - 80:80
         container_name: font
-        image: font:1
+        image: ghcr.io/martinjh99/font/font-test:latest
 #        networks:
 #          - npm_default
 #networks:

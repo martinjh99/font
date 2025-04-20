@@ -16,5 +16,6 @@ div
 
     .test{
         background: darkblue;
-        height:1800px; width:550px;
+        border: 2px solid red;
+        
     }
