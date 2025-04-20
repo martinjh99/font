@@ -5,7 +5,7 @@ html,
 body {
     /* padding: 30px; */
     background: linear-gradient(to right, rgb(23,80,23) 5%,black 15%) repeat;
-    font-size:1.3rem;
+    font-size:1.1rem;
     color:white;
     font-family: var(--font-comic);
 }
@@ -13,9 +13,3 @@ div
 {
     padding: 30px 30px 15px 30px
 }
-
-    .test{
-        background: darkblue;
-        border: 2px solid red;
-        
-    }
