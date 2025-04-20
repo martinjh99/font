@@ -1,0 +1,12 @@
+services:
+    website:
+        ports:
+            - 80:80
+        container_name: font
+        image: font:1
+#        networks:
+#          - npm_default
+#networks:
+#   npm_default:
+#      external: true
+

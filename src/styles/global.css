@@ -4,23 +4,17 @@
 html,
 body {
     /* padding: 30px; */
-    background: linear-gradient(to left, rgb(23,80,23) 1%,black 10%) repeat;
-
+    background: linear-gradient(to right, rgb(23,80,23) 5%,black 15%) repeat;
+    font-size:1.3rem;
+    color:white;
+    font-family: var(--font-comic);
 }
-div{
-    margin-bottom:40px;
-    padding: 75px;
+div
+{
+    padding: 30px 30px 15px 30px
+}
 
+    .test{
+        background: darkblue;
+        height:1800px; width:550px;
     }
-
-.fred{
-    font-family: var(--font-audiowide);
-    font-size:2rem;
-    color:rgb(200, 99, 209);  
-}
-
-.quant{
-    font-family: var(--font-quantico);
-    font-size:2rem;
-    color: white;
-}

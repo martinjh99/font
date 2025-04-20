@@ -11,16 +11,7 @@ export default defineConfig({
               provider: fontProviders.google(),
               name: "Comic Neue",
               cssVariable: "--font-comic"
-          },
-          {
-              provider: fontProviders.google(),
-              name: "Audiowide",
-              cssVariable: "--font-audiowide"
-          },
-          {
-              provider: fontProviders.google(),
-              name: "Quantico",
-              cssVariable: "--font-quantico"
+        
       }]
   },
 
