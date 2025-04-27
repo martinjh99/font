@@ -1,5 +1,5 @@
 ---
-import { Picture,Image } from 'astro:assets';
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import wallpaper from '../images/mva.jpg';
 
@@ -8,10 +8,9 @@ import wallpaper from '../images/mva.jpg';
 ---
 
 <Layout>
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="test">
+    <div class="grid grid-cols-1 lg:grid-cols-2 text-mint-500">
+        <div>
             <Image src={wallpaper} alt="wallpaper"/>
-            <Picture src={wallpaper} alt="wallpaper"/>
         </div>
 <div class="lg:col-start-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et.
 

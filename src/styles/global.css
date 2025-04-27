@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-martin: rgb(119,0,0);
+  }
 
 
 html,
