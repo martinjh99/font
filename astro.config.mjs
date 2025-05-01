@@ -7,12 +7,12 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   experimental: {
       fonts: [
-          {
-              provider: fontProviders.google(),
-              name: "Comic Neue",
-              cssVariable: "--font-comic"
-        
-      }]
+      {
+        provider: fontProviders.fontsource(),
+        name: "Podkova",
+        cssVariable: "--font-zilla"
+      }
+    ]
   },
 
   vite: {
