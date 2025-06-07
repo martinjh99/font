@@ -9,7 +9,7 @@ export default defineConfig({
       fonts: [
       {
         provider: fontProviders.google(),
-        name: "Courier Prime",
+        name: "Old Standard TT",
         cssVariable: "--font-zilla"
       }
     ]
