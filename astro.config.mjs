@@ -8,8 +8,8 @@ export default defineConfig({
   experimental: {
       fonts: [
       {
-        provider: fontProviders.fontsource(),
-        name: "Podkova",
+        provider: fontProviders.google(),
+        name: "Courier Prime",
         cssVariable: "--font-zilla"
       }
     ]
