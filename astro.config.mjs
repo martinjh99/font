@@ -9,7 +9,7 @@ export default defineConfig({
       fonts: [
       {
         provider: fontProviders.google(),
-        name: "Old Standard TT",
+        name: "Matangi",
         cssVariable: "--font-zilla"
       }
     ]

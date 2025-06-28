@@ -1,9 +1,4 @@
 @import "tailwindcss";
-@theme {
-    --color-mint-500: oklch(0.72 0.11 178);
-    --color-martin: rgb(119,0,0);
-    --color-fred: rgb(0,0,0);
-  }
 
 
 html,
@@ -13,9 +8,10 @@ body {
     font-size:1.2rem;
     color: white;
     font-family: var(--font-zilla);
+    
 }
 
 div
 {
-    padding: 30px 30px 15px 30px
+    margin: 15px;
 } 
