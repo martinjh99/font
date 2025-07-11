@@ -10,8 +10,9 @@ body {
     font-family: var(--font-zilla);
     
 }
-
-div
-{
-    margin: 15px;
-} 
+.container{
+    columns: 2;
+    column-gap: 75px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
