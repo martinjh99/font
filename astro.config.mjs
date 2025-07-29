@@ -2,6 +2,7 @@
 import { defineConfig, fontProviders } from 'astro/config';
 
 import tailwindcss from "@tailwindcss/vite";
+import { provider } from 'astro/assets/fonts/providers/google';
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,8 +10,13 @@ export default defineConfig({
       fonts: [
       {
         provider: fontProviders.google(),
-        name: "Matangi",
+        name: "Manufacturing Consent",
         cssVariable: "--font-zilla"
+      },
+      {  
+        provider: fontProviders.google(),
+        name: "Playfair Display",
+        cssVariable: "--font-oswald"
       }
     ]
   },

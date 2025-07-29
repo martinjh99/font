@@ -5,14 +5,28 @@ html,
 body {
     /* padding: 30px; */
     background: linear-gradient(to right, rgb(23,80,23) 5%,black 15%) repeat;
-    font-size:1.2rem;
+    font-size:20px;
     color: white;
-    font-family: var(--font-zilla);
+    font-family: var(--font-oswald);
     
 }
-.container{
-    columns: 2;
-    column-gap: 75px;
-    text-align: justify;
-    margin-bottom: 20px;
+/* .container{
+    background: #aaaaaa;
+
+} */
+
+p{
+    margin-bottom: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+
+h1{
+    text-align: center;
+    font-size: 72px;
+    text-decoration: underline;
+    font-family: var(--font-zilla);
+
 }
