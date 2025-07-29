@@ -8,6 +8,7 @@ body {
     font-size:20px;
     color: white;
     font-family: var(--font-oswald);
+    margin:30px;
     
 }
 /* .container{
