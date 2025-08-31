@@ -15,7 +15,7 @@ export default defineConfig({
       },
       {  
         provider: fontProviders.google(),
-        name: "Playfair Display",
+        name: "Epunda Slab",
         cssVariable: "--font-oswald"
       }
     ]
