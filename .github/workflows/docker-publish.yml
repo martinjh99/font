@@ -7,8 +7,10 @@ name: Create and Publish docker container
 
 on:
    push:
-    branches: [ "main" ]
-
+    branches: [ 'main' ]
+   
+   workflow_dispatch:
+   
   
 env:
   # Use docker.io for Docker Hub if empty
@@ -74,5 +76,4 @@ jobs:
            platforms: "linux/amd64"
            push: true
            tags: |
-               "${{ env.REPOSITORY}}/${{ github.repository }}/${{ env.IMAGE_NAME}}:latest"
-               "${{ env.REPOSITORY}}/${{ github.repository }}/${{ env.IMAGE_NAME}}:${{ steps.meta.outputs.tags }}"
+                 "${{ env.REPOSITORY}}/${{ github.repository }}/${{ env.IMAGE_NAME}}:latest"
