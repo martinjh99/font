@@ -31,3 +31,10 @@ h1{
     font-family: var(--font-zilla);
 
 }
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font-zilla)
+}
+
