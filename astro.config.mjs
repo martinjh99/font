@@ -2,7 +2,7 @@
 import { defineConfig, fontProviders } from 'astro/config';
 
 import tailwindcss from "@tailwindcss/vite";
-import { provider } from 'astro/assets/fonts/providers/google';
+//import { provider } from 'astro/assets/fonts/providers/google';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
       },
       {  
         provider: fontProviders.google(),
-        name: "Epunda Slab",
+        name: "Quicksand",
         cssVariable: "--font-oswald"
       }
     ]
