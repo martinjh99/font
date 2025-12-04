@@ -31,13 +31,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "Set up QEMU"
-        uses: "docker/setup-qemu-action@v3"
+        uses: "github.com/docker/setup-qemu-action@v3"
 
       - name: "Set up Docker Buildx"
-        uses: "docker/setup-buildx-action@v3"
+        uses: "github.com/docker/setup-buildx-action@v3"
 
       - name: Install Node
-        uses: adamhamlin/checkout-node-project@v1
+        uses: github.com/adamhamlin/checkout-node-project@v1
         with:
     # Node.js version to install
           node-version: 22
