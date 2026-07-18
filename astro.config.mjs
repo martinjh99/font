@@ -6,20 +6,14 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
       fonts: [
       {
         provider: fontProviders.google(),
-        name: "Manufacturing Consent",
+        name: "Courgette",
         cssVariable: "--font-zilla"
       },
-      {  
-        provider: fontProviders.google(),
-        name: "Quicksand",
-        cssVariable: "--font-oswald"
-      }
-    ]
-  },
+    ],
+  
 
   vite: {
     plugins: [tailwindcss()]

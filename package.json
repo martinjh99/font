@@ -10,8 +10,8 @@
 		"host": "astro dev --host"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.1.17",
-		"astro": "^5.16.4",
-		"tailwindcss": "^4.1.17"
+		"@tailwindcss/vite": "^4.3.3",
+		"astro": "^7.1.1",
+		"tailwindcss": "^4.3.3"
 	}
 }
