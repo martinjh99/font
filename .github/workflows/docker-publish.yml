@@ -26,10 +26,10 @@ jobs:
 
     steps:
       - name: "Set up QEMU"
-        uses: "github.com/docker/setup-qemu-action@v3"
+        uses: "docker/setup-qemu-action@v3"
 
       - name: "Set up Docker Buildx"
-        uses: "github.com/docker/setup-buildx-action@v3"
+        uses: "docker/setup-buildx-action@v3"
 
       - name: "Checkout,install node,install dependencies"
         uses: adamhamlin/checkout-node-project@v2
