@@ -9,7 +9,7 @@ export default defineConfig({
       fonts: [
       {
         provider: fontProviders.google(),
-        name: "Courgette",
+        name: "Raleway",
         cssVariable: "--font-zilla"
       },
     ],

@@ -25,13 +25,16 @@
 --color-dark-coffee-900: #301603;
 --color-dark-coffee-950: #221002;
 
-
+--color-fred:#990000;
+--color-sine: #009900;
+--color-xxx: #000099;
 }
 html,
 body {
     /* padding: 30px; */
-    background: linear-gradient(to right, rgb(23,80,23) 5%,black 15%) repeat;
-    font-size:35px;
+    /* background: linear-gradient(to right, rgb(23,80,23) 5%,black 15%) repeat; */
+    background:black;
+    /* font-size:35px; */
     color: white;
     font-family: var(--font-zilla);
      
@@ -45,7 +48,6 @@ p{
     
 }
 
-
 h1{
   text-align: center;
   font-family: var(--font-zilla);
@@ -58,5 +60,8 @@ text-align: center;
 font-family: var(--font-zilla);
 margin-bottom: 20px;
 font-size: 35px;
- } 
+ }
 
+.test{
+    background: linear-gradient(to left bottom, rgb(23,80,23) 25%,rgb(45,0,0) 55%);
+}
