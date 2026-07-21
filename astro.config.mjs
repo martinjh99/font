@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig, fontProviders } from 'astro/config';
-
 import tailwindcss from "@tailwindcss/vite";
 //import { provider } from 'astro/assets/fonts/providers/google';
 
@@ -8,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
       fonts: [
       {
-        provider: fontProviders.fontsource(),
+        provider: fontProviders.google(),
         name: "Playfair Display",
         cssVariable: "--font-play"
       },

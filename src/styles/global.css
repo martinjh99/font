@@ -47,7 +47,7 @@ body {
     background:black;
     /* font-size:35px; */
     color: white;
-    font-family: var(--font-quig);
+    font-family: var(--font-play);
      
 }
 
@@ -68,7 +68,7 @@ h1{
 
  h2{ 
 text-align: center;
-/* font-family: var(--font-quig); */
+font-family: var(--font-q);
 margin-bottom: 20px;
 font-size: 35px;
  }
