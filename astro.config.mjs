@@ -7,8 +7,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
       fonts: [
       {
-        provider: fontProviders.google(),
-        name: "Playfair Display",
+        provider: fontProviders.fontsource(),
+        name: "Comfortaa",
         cssVariable: "--font-play"
       },
       {
