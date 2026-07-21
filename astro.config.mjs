@@ -8,10 +8,15 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
       fonts: [
       {
-        provider: fontProviders.google(),
-        name: "Raleway",
-        cssVariable: "--font-zilla"
+        provider: fontProviders.fontsource(),
+        name: "Playfair Display",
+        cssVariable: "--font-play"
       },
+      {
+        provider: fontProviders.google(),
+        name: "Qwigley",
+        cssVariable: "--font-q"
+      }
     ],
   
 

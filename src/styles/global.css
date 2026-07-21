@@ -12,6 +12,17 @@
 --color-midnight-violet-900: #33001d;
 --color-midnight-violet-950: #240014;
 
+--color-midnight-violet-50: #ffe5f4;
+--color-midnight-violet-100: #ffcce9;
+--color-midnight-violet-200: #ff99d3;
+--color-midnight-violet-300: #ff66bd;
+--color-midnight-violet-400: #ff33a7;
+--color-midnight-violet-500: #ff0091;
+--color-midnight-violet-600: #cc0074;
+--color-midnight-violet-700: #990057;
+--color-midnight-violet-800: #66003a;
+--color-midnight-violet-900: #33001d;
+--color-midnight-violet-950: #240014;
 
 --color-dark-coffee-50: #fef1e7;
 --color-dark-coffee-100: #fce2cf;
@@ -36,7 +47,7 @@ body {
     background:black;
     /* font-size:35px; */
     color: white;
-    font-family: var(--font-zilla);
+    font-family: var(--font-quig);
      
 }
 
@@ -50,14 +61,14 @@ p{
 
 h1{
   text-align: center;
-  font-family: var(--font-zilla);
+  font-family: var(--font-q);
   font-size: 50px;
 
  } 
 
  h2{ 
 text-align: center;
-font-family: var(--font-zilla);
+/* font-family: var(--font-quig); */
 margin-bottom: 20px;
 font-size: 35px;
  }
